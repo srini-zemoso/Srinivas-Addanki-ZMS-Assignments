@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruit List</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <style>
+            
+            table , th, tr, td{
+                border: 1px solid black;
+                vertical-align: middle;
+            }
+            thead th, tfoot th {
+                text-align: center;
+                background-color: gray;
+                color: white;
+            }
+
+            tbody th{
+                text-align: center;
+                background-color: lightgray;
+                color:black;
+            }
+
+            tr{
+                text-align: center;
+            }
+            caption{
+                font-weight: bold;
+                font-size: large;
+                margin-bottom: 5px;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <table>
+            <caption>Fruits and their current rates</caption>
+            <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>Fruit</th>
+                <th>Quantity</th>
+                <th>Price(/Unit)</th>
+                <th>Total Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Strawberry</td>
+                <td>15</td>
+                <td>10</td>
+                <td id="Strawberry"></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Pineapple</td>
+                <td>10</td>
+                <td>40</td>
+                <td id='Pineapple'></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Apple</td>
+                <td>6</td>
+                <td>20</td>
+                <td id="Apple"></td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Mango</td>
+                <td>12</td>
+                <td>50</td>
+                <td id="Mango"></td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Pear</td>
+                <td>10</td>
+                <td>80</td>
+                <td id="Pear"></td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5"><i>&copy; Srinivas Pavan Addanki, 2020</i></th>
+                </tr>
+            </tfoot>
+        </table>
+        <p>The Fruits which cost above 250 are:</p>
+        <p id="fruitlist">
+            <ul>
+                
+            </ul>
+        </p>
+        <script src="fruits.js"></script>
+    </body>
+</html>
