@@ -1,0 +1,74 @@
+#welcome_text{
+    padding-left: 140px;
+}
+#pb_logo{
+    padding-left: 100px;
+}
+#welcome_text{
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: 'proxima-nova','Arial CE','Arial','sans-serif';
+}
+#google_sign_in{
+    padding-left: 140px;
+}
+#input_region{
+    padding-left: 140px;
+    padding-right: 720px;
+    text-transform: uppercase;
+    font-family: 'proxima-nova','Arial CE','Arial','sans-serif';
+    color: #acb6bf;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+#email_line{
+    border-bottom: 1.5px solid #acb6bf;
+    height: 0.65em;
+    text-align: center;
+    line-height: 20px;
+    
+}
+span{
+    color: #acb6bf;
+    display: inline-block;
+    margin: 0 auto;
+    background: white;
+    padding: 0 15px;
+    font-weight: 700;
+    font-size: 13px;
+}
+#email{
+    width: 400px;
+    height: 44px;
+    border-radius: 2.5px;
+}
+#password{
+    width: 400px;
+    height: 44px;
+    border-radius: 2.5px;
+}
+#forgot_password{
+    padding-left: 125px;
+    color: #acb6bf;
+}
+#submit{
+    width: 400px;
+    height: 44px;
+    background-color:#2693ff;
+    color: white;
+    font-family: 'proxima-nova','Arial CE','Arial','sans-serif';
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: lightgray;
+    text-align: center;
+    font-family: 'proxima-nova','Arial CE','Arial','sans-serif';
+    font-weight: 700;
+    font-size: 13px;
+}
+
